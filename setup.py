@@ -8,7 +8,7 @@ Created on Sat Jan 30 20:15:11 2021
 from setuptools import setup, find_packages
 
 setup(
-    name = 'MyProject',
+    name = 'gym_chess',
     version = '0.1.0',
     url = '',
     description = '',
@@ -16,6 +16,6 @@ setup(
     install_requires = [
         # Github Private Repository
         #'ExampleRepo @ git+ssh://git@github.com/example_organization/ExampleRepo.git#egg=ExampleRepo-0.1'
-        'git+https://github.com/igres9014/gym_chess2.git'
+        'gym_chess@git+https://github.com/igres9014/gym_chess2.git'
     ]
 )
